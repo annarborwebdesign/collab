@@ -14,6 +14,14 @@ img.team-image{
   border-radius: 50%;
 }
 
+a.enter-site-link{
+  text-decoration:none;
+  color:black;
+}
+a.enter-site-link:hover{
+  text-decoration:none;
+  color:b;
+}
 
 /*Navigation Bar Stuff*/
 .nav-menu {
@@ -41,7 +49,7 @@ a.navBare{
   padding-top:5%;
   display: block;
   height: 50px;
-  font-size: 12px;
+  font-size: 10px;
   color: #FFFFFF;
   background-color: rgb(51, 51, 51);
   text-align: center;

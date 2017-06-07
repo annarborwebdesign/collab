@@ -7,14 +7,25 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script type = "text/javascript" src = "js/javascript.js"></script>
   <title> The Community </title>
+  <style>
+    div.mobile{
+      display:none;
+    }
+    @media (max-width: 640px) {
+      div.mobile { display: block }
+      div.desktop { display: none }
+    }
+  </style>
 </head>
 <body style = "background-color: #d5d0c2">
+
+<div class = "desktop">
   <!--Navigation Bar-->
   <nav class = "nav-menu">
     <ul>
-      <li class = "navitem"><a href="collaboratory.html" class = "navBare"> COLLABORATORY</a></li>
+      <li class = "navitem"><a href="collaboratory.html" class = "navBare"> COLLABORATION</a></li>
       <li class = "navitem"><a href="about-the-community.html" class = "navBare active">THE COMMUNITY</a></li>
-      <li class = "navitem"><a href="findings.html" class = "navBare">FINDINGS</a></li>
+      <li class = "navitem"><a href="findings.html" class = "navBare"> OUR FINDINGS</a></li>
       <li class = "navitem active"><a href="research-team.html" class = "navBare">THE TEAM</a></li>
     </ul>
   </nav>
@@ -27,7 +38,7 @@
         <h1 class = "page-title">History of The Community</h1>
       </td>
       <td align = right width = "50%">
-        <h3 style = "color:#4a4b4c"> Look at a brief timeline of Afrikaans</h3>
+        <h3 style = "color:#4a4b4c"> Look at a brief timeline of Afrikaans.</h3>
       </td>
     </tr>
   </table>
@@ -36,6 +47,36 @@
   <div align = "center">
     <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xp-5402zDHs6MlLRvAVvDq91w9A4saSepTOkTFxWgNQ&font=Default&lang=en&initial_zoom=2&height=350' width='80%' height=350px webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
   </div>
+</div>
+
+<!-- MOBILE SITE-->
+<div class = "mobile">
+  <!--Navigation Bar-->
+  <nav class = "nav-menu">
+    <ul>
+      <li class = "navitem"><a href="collaboratory.html" class = "navBare"> COLLABORATION</a></li>
+      <li class = "navitem"><a href="about-the-community.html" class = "navBare active">COMMUNITY</a></li>
+      <li class = "navitem"><a href="findings.html" class = "navBare">FINDINGS</a></li>
+      <li class = "navitem active"><a href="research-team.html" class = "navBare">TEAM</a></li>
+    </ul>
+  </nav>
+
+  <br>
+  <table width = "80%" align = "center">
+    <hr class = "team-line" width = "80%">
+    <tr>
+      <td align = center >
+        <h1 class = "page-title">Community</h1>
+        <h3 style = "color:#4a4b4c"> A brief timeline of Argetine Afrikans.</h3>
+      </td>
+    </tr>
+  </table>
+  <hr class = "team-line" width = "80%">
+
+  <div align = "center">
+    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xp-5402zDHs6MlLRvAVvDq91w9A4saSepTOkTFxWgNQ&font=Default&lang=en&initial_zoom=2&height=350' width='80%' height=350px webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+  </div>
+</div>
 
 
 </body>

@@ -6,6 +6,15 @@ h1.page-title{
   font-size: 70px;
 }
 
+h1.page-title-mobile{
+  font-size: 40px
+}
+
+
+h1.page-subtitle{
+  font-size: 50px;
+}
+
 hr.team-line{
   border-top: 1px solid black;
 }
@@ -16,11 +25,11 @@ img.team-image{
 
 a.enter-site-link{
   text-decoration:none;
-  color:black;
+  color:grey;
 }
 a.enter-site-link:hover{
   text-decoration:none;
-  color:b;
+  color:#00B2EE;
 }
 
 /*Navigation Bar Stuff*/
@@ -49,9 +58,9 @@ a.navBare{
   padding-top:5%;
   display: block;
   height: 50px;
-  font-size: 10px;
-  color: #FFFFFF;
-  background-color: rgb(51, 51, 51);
+  font-size: 12px;
+  color: #696969;
+  background-color: #cccccc;
   text-align: center;
   text-decoration: none;
   font-family: 'Raleway', Arial;
@@ -60,13 +69,22 @@ a.navBare{
 }
 a.navBare:hover{
   text-decoration:none;
-  background-color: #999967;
+  background-color: #00B2EE	;
   color:white;
 }
 a.active{
-  background-color: #999967;
+  background-color: #00B2EE	;
 }
 a.active:hover{
-  background-color: #999967;
+  background-color: #00B2EE	;
   color:white;
+}
+
+div.collaboration-body{
+  width:80%;
+  font-size: 20px;
+}
+
+p.interesting-subtitle{
+  font-size: 30px;
 }

@@ -54,11 +54,11 @@ li.navitem {
   width:25%;
   overflow: hidden;
 }
-a.navBare{
-  padding-top:5%;
+a.navBare-desktop{
+  padding-top:3%;
   display: block;
   height: 50px;
-  font-size: 12px;
+  font-size: 20px;
   color: #696969;
   background-color: #cccccc;
   text-align: center;
@@ -67,11 +67,33 @@ a.navBare{
   letter-spacing: 2pt;
   overflow: hidden;
 }
-a.navBare:hover{
+a.navBare-desktop:hover{
   text-decoration:none;
   background-color: #00B2EE	;
   color:white;
 }
+a.navBare-mobile{
+  padding-top:9%;
+  display: block;
+  height: 40px;
+  font-size: 10px;
+  color: #696969;
+  background-color: #cccccc;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', Arial;
+  letter-spacing: 2pt;
+  overflow: hidden;
+}
+a.navBare-mobile:hover{
+  text-decoration:none;
+  background-color: #00B2EE	;
+  color:white;
+}
+
+
+
+
 a.active{
   background-color: #00B2EE	;
 }

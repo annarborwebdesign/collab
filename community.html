@@ -1,37 +1,77 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/ico" href="img/logo.png" />
-  <link rel="stylesheet" href="css/stylesheet.css"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script type = "text/javascript" src = "js/javascript.js"></script>
-  <title> Community </title>
-  <style>
-    div.mobile{
-      display:none;
-    }
-    @media (max-width: 640px) {
-      div.mobile { display: block }
-      div.desktop { display: none }
-    }
-  </style>
-</head>
-<body style = "background-color: #eeeeee">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<div class = "desktop">
-  <!--Navigation Bar-->
-  <nav class = "nav-menu">
-    <ul>
-      <li class = "navitem"><a href="project.html" class = "navBare-desktop"> PROJECT</a></li>
-      <li class = "navitem"><a href="#" class = "navBare-desktop active">COMMUNITY</a></li>
-      <li class = "navitem"><a href="findings.html" class = "navBare-desktop">FINDINGS</a></li>
-      <li class = "navitem active"><a href="collaboration.html" class = "navBare-desktop">COLLABORATION</a></li>
-    </ul>
+  <title>Community</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <style>
+  @media (max-width: 640px) {
+    div.mobile { display: block }
+    div.desktop { display: none }
+  }
+  </style>
+
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  Menu <i class="fa fa-bars"></i>
+              </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="index.html">Home</a>
+                  </li>
+                  <li style = "background-color:grey">
+                      <a class="page-scroll" href="#">Community</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="findings.html">Findings</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="collaboration.html">Collaboration</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
   </nav>
 
 
-  <br>
+  <br><br><br><br>
   <table width = "80%" align = "center">
     <hr class = "team-line" width = "80%">
     <tr>
@@ -39,71 +79,11 @@
         <h1 class = "page-title">History of The Community</h1>
       </td>
       <td align = right width = "50%">
-        <h3 style = "color:#4a4b4c"> Look at a brief timeline of Afrikaans.</h3>
+        <h3 style = "color:#4a4b4c"> Look at a brief timeline of Afrikaans</h3>
       </td>
     </tr>
   </table>
   <hr class = "team-line" width = "80%">
-
-  <div align = "center">
-    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xp-5402zDHs6MlLRvAVvDq91w9A4saSepTOkTFxWgNQ&font=Default&lang=en&initial_zoom=2&height=350' width='80%' height=350px webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-  </div>
-</div>
-
-<!-- MOBILE SITE-->
-<div class = "mobile">
-  <!--Navigation Bar-->
-  <nav class = "nav-menu">
-    <ul>
-      <li class = "navitem"><a href="project.html" class = "navBare-mobile"> COLLABORATION</a></li>
-      <li class = "navitem"><a href="community.html" class = "navBare-mobile active">COMMUNITY</a></li>
-      <li class = "navitem"><a href="findings.html" class = "navBare-mobile">FINDINGS</a></li>
-      <li class = "navitem active"><a href="collaboration.html" class = "navBare-mobile">TEAM</a></li>
-    </ul>
-  </nav>
-
-  <br>
-  <table width = "80%" align = "center">
-    <hr class = "team-line" width = "80%">
-    <tr>
-      <td align = center >
-        <h1 class = "page-title">Community</h1>
-        <h3 style = "color:#4a4b4c"> A brief timeline of Argetine Afrikans.</h3>
-      </td>
-    </tr>
-  </table>
-  <hr class = "team-line" width = "80%">
-
-  <div align = "center">
-    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xp-5402zDHs6MlLRvAVvDq91w9A4saSepTOkTFxWgNQ&font=Default&lang=en&initial_zoom=2&height=350' width='80%' height=350px webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-  </div>
-</div>
-
-<!--Why Is It Interesting?-->
-<table width = "80%" align = "center">
-  <hr class = "team-line" width = "80%">
-  <tr>
-    <td align = center >
-      <h1 class = "page-subtitle">Why Is This Community Interesting?</h1>
-    </td>
-  </tr>
-</table>
-<hr class = "team-line" width = "80%">
-
-<div align = "center">
-  <div class = "collaboration-body" width = "80%" align = "justify">
-    <p class = "interesting-subtitle">Languages In Contact</p>
-    <p>Our project examines the only community in the world in which Spanish and Afrikaans have coexisted over multiple generations.</p>
-    <br>
-    <p class = "interesting-subtitle">Endangered Language & Cultural Variety</p>
-    <p>Our work is timely as the shifts from Afrikaans to Spanish and from Calvinism to Roman Catholicism are advancing so rapidly that the current oldest generation represents the last group of fluent bilingual speakers and includes some of the last members of the Dutch Reformed Church in Argentina.</p>
-    <br>
-    <p class = "interesting-subtitle">Fusion of Research Methodologies</p>
-    <p>The Collaboratory affords our team the opportunity to test how linguistic and cultural research traditions can both inform and challenge each other.</p>
-  </div>
-</div>
-<br><br>
-
 
 </body>
 </html>

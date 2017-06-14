@@ -13,6 +13,9 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <!-- Personal Style Sheet-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -28,10 +31,20 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-    @media (max-width: 640px) {
-      div.mobile { display: block }
-      div.desktop { display: none }
-    }
+      @media (max-width: 640px) {
+        div.mobile { display: block }
+        div.desktop { display: none }
+      }
+      #team-image{
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: top center !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed;
+        background-image: url("img/team-back.jpg");
+        height:200px;
+      }
     </style>
 
 </head>
@@ -81,8 +94,8 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1>ARGENTINE AFRIKANERS COLLABORATORY</h1>
+                    <div class="col-lg-12">
+                        <h1 style = "font-size:60px; ">ARGENTINE AFRIKANERS COLLABORATORY</h1>
                         <p class="intro-text">Learn More About The Project</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -123,14 +136,12 @@
 
         <!--Community-->
         <section id="community" class="container content-section text-center">
+          <hr class = "team-line" width = "80%">
           <table width = "80%" align = "center">
-            <hr class = "team-line" width = "80%">
+            <br>
             <tr>
-              <td align = left >
-                <h1 class = "page-title">History of The Community</h1>
-              </td>
-              <td align = right width = "50%">
-                <h3 style = "color:#4a4b4c"> Look at a brief timeline of Afrikaans</h3>
+              <td align = center >
+                <h1 class = "page-title">THE COMMUNITY</h1>
               </td>
             </tr>
           </table>
@@ -140,14 +151,12 @@
 
         <!--Findings-->
         <section id="findings" class="container content-section text-center">
+          <hr class = "team-line" width = "80%">
           <table width = "80%" align = "center">
-            <hr class = "team-line" width = "80%">
+            <br>
             <tr>
-              <td align = left >
-                <h1 class = "page-title">Findings</h1>
-              </td>
-              <td align = right width = "50%">
-                <h3 style = "color:#4a4b4c"> Check out our findings from the project.</h3>
+              <td align = center >
+                <h1 class = "page-title">OUR FINDINGS</h1>
               </td>
             </tr>
           </table>
@@ -156,14 +165,12 @@
 
         <!--Collaboration-->
         <section id="collaboration" class="container content-section text-center">
+          <hr class = "team-line" width = "80%">
           <table width = "80%" align = "center">
-            <hr class = "team-line" width = "80%">
+            <br>
             <tr>
-              <td align = left >
-                <h1 class = "page-title">Collaboration</h1>
-              </td>
-              <td align = right width = "50%">
-                <h3 style = "color:#4a4b4c"> Learn what it's like collaborating with many individuals from arious backgrounds.</h3>
+              <td align = center >
+                <h1 class = "page-title">LEARN ABOUT COLLABORATION</h1>
               </td>
             </tr>
           </table>
@@ -174,18 +181,18 @@
     <!-- Team Section -->
     <section id="team" class="content-section text-center" style = "font-family: Helvetica">
       <div class = "desktop">
+        <hr class = "team-line" width = "80%">
         <table width = "80%" align = "center">
-          <hr class = "team-line" width = "80%">
           <br>
           <tr>
             <td align = center >
-              <h1 class = "page-title">Meet The Team</h1>
+              <h1 class = "page-title">MEET THE TEAM</h1>
             </td>
           </tr>
         </table>
+        <hr class = "team-line" width = "80%">
 
       <!--Person On research Team, Text Left-->
-      <hr class = "team-line" width = "80%">
       <table class = "team-member" align = "center" width = "80%">
         <tr>
           <td width = 70% style = "text-align: right; padding-right: 5%">
@@ -498,6 +505,8 @@
     </div>
     </section>
 
+
+
     <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -519,6 +528,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+
 
 </body>
 

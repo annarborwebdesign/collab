@@ -10,11 +10,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
     <title>Argentine Afrikaners Collaboratory</title>
 
+
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- Personal Style Sheet-->
+    <!-- Personal-->
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/javascript.js"></script>
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -110,400 +112,259 @@
 
     <!-- Team Section -->
     <section id="team" class="content-section text-center" style = "font-family: Helvetica">
+    <hr class = "team-line" width = "80%">
+    <table width = "80%" align = "center">
+      <br>
+      <tr>
+        <td align = center >
+          <h1 class = "page-title">MEET THE TEAM</h1>
+        </td>
+      </tr>
+    </table>
+    <hr class = "team-line" width = "80%">
 
-      <div align = "center">
-      <table width = 90%>
+    <!--BIG TABLE-->
+    <table width = 80% align = "center">
+    <td width = 70%>
+    <div align = "center">
+      <table width = 100%>
         <tr>
-          <td width = 25% align = "center">
-              <img src = "img/team-images/Paulina-Alberto.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('paulina-bio', 'paulina-face')">
+              <img src = "img/team-images/Paulina-Alberto.jpg" id = "paulina-face" class="team-image" style = "border-radius:50%; filter: brightness(100%)" width = "80%" height = width/>
               <p align = "center"> Paulina Alberto <br> <i>Faculty</i> </p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Andries-Coetzee.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('andries-bio', 'andries-face')">
+            <img src = "img/team-images/Andries-Coetzee.jpg" id = "andries-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Andries Coetzee<br> <i>Faculty</i> </p>
           </td>
-          <td width = 25% align = "center">
-              <img src = "img/team-images/Lorenzo-Garcia.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('lorenzo-bio', 'lorenzo-face')">
+              <img src = "img/team-images/Lorenzo-Garcia.jpg" id = "lorenzo-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
               <p align = "center"> Lorenzo Garcia-Amaya<br> <i>Faculty</i> </p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Nicholas-Henriksen.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('nicholas-bio', 'nicholas-face')">
+            <img src = "img/team-images/Nicholas-Henriksen.jpg" id = "nicholas-face"class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Nicholas Henriksen<br> <i>Faculty & Principal Investigator</i> </p>
           </td>
         </tr>
+
         <tr align = "center">
-          <td width = 25%></td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Kate.jpg" style = "border-radius:50%" width = "80%" height = width/>
+
+          <td width = 25% align = "center" onclick="showBio('kate-bio', 'kate-face')">
+            <img src = "img/team-images/Kate.jpg" id = "kate-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Kate Jenckes<br> <i>Faculty</i> </p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Ryan-Szpiech.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('ryan-bio', 'ryan-face')">
+            <img src = "img/team-images/Ryan-Szpiech.jpg" id = "ryan-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Ryan Szpiech<br> <i>Faculty</i> </p>
           </td>
-
-          <td width = 25%></td>
-        </tr>
-        <!--STUDENTS-->
-        <tr>
-          <td width = 25% align = "center">
-              <img src = "img/team-images/Dominique-Bouavichith.jpg" style = "border-radius:50%" width = "80%" height = width/>
+              <!--STUDENTS-->
+          <td width = 25% align = "center" onclick="showBio('dominique-bio', 'dominique-face')">
+              <img src = "img/team-images/Dominique-Bouavichith.jpg" id = "dominique-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
               <p align = "center"> Dominique Bouavicith</p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Ella-Deaton.jpeg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('ella-bio', 'ella-face')">
+            <img src = "img/team-images/Ella-Deaton.jpeg" id = "ella-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Ella Deaton</p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Lilliana-DeLeon.jpg" style = "border-radius:50%" width = "80%" height = width/>
+        </tr>
+        <tr>
+          <td width = 25% align = "center" onclick="showBio('liliana-bio', 'liliana-face')">
+            <img src = "img/team-images/Lilliana-DeLeon.jpg" id = "liliana-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Lilliana De Leon</p>
           </td>
 
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Mallory.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('mallory-bio', 'mallory-face')">
+            <img src = "img/team-images/Mallory.jpg" id = "mallory-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Mallory Fuller</p>
           </td>
-        </tr>
-        <tr>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Libby-Garno.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('libby-bio', 'libby-face')">
+            <img src = "img/team-images/Libby-Garno.jpg" id = "libby-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Libby Garno</p>
           </td>
-          <td width = 25% align = "center">
-              <img src = "img/team-images/Claire-Laing.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('claire-bio', 'claire-face')">
+              <img src = "img/team-images/Claire-Laing.jpg" id = "claire-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
               <p align = "center"> Claire Laing</p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Sean-Lang.png" style = "border-radius:50%" width = "80%" height = width/>
+        </tr>
+        <tr>
+          <td width = 25% align = "center" onclick="showBio('sean-bio', 'sean-face')">
+            <img src = "img/team-images/Sean-Lang.png" id = "sean-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Sean Lang</p>
           </td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Moiz-Mahmood.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('moiz-bio', 'moiz-face')">
+            <img src = "img/team-images/Moiz-Mahmood.jpg" id = "moiz-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Moiz Mahmood</p>
           </td>
-        </tr>
-        <tr>
-          <td width = 25% align = "center"></td>
-          <td width = 25% align = "center">
-            <img src = "img/team-images/Joshua-Shapero.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('joshua-bio', 'joshua-face')">
+            <img src = "img/team-images/Joshua-Shapero.jpg" id = "joshua-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
             <p align = "center"> Joshua Shapero</p>
           </td>
-          <td width = 25% align = "center">
-              <img src = "img/team-images/Ishan-Vashishta.jpg" style = "border-radius:50%" width = "80%" height = width/>
+          <td width = 25% align = "center" onclick="showBio('ishan-bio', 'ishan-face')">
+              <img src = "img/team-images/Ishan-Vashishta.jpg" id = "ishan-face" class="team-image" style = "border-radius:50%" width = "80%" height = width/>
               <p align = "center"> Ishan Vashishta</p>
           </td>
-          <td width = 25% align = "center"></td>
         </tr>
       </table>
     </div>
-
-
-
-
-
-
- <!--
-      <div id = "stuff" style = "visibility:hidden">
-      <div class = "desktop">
-        <hr class = "team-line" width = "80%">
-        <table width = "80%" align = "center">
-          <br>
-          <tr>
-            <td align = center >
-              <h1 class = "page-title">MEET THE TEAM</h1>
-            </td>
-          </tr>
-        </table>
-        <hr class = "team-line" width = "80%">
-
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>PAULINA ALBERTO</b>
-            </p>
-            <p>
-              Faculty Collaborator<br><br>
-              Paulina L. Alberto is Associate Professor in the Departments of History and of RLL. Her current research on the (in)famous porteño street character Raúl Grigera (“el negro Raúl”) and explores the power of racial stories to construct “whiteness” and “blackness” in twentieth-century Argentina and to shape individual fates. For the Argentine Afrikaners Collaboratory project, she's serving as a historical consultant on issues of race and national identity in twentieth-century Argentina.
-            </p>
-          </td>
-          <td width = 30%>
-            <img src = "img/team-images/Paulina-Alberto.jpg" style = "border-radius:50%" width = "200px" height = width/>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30% >
-            <img src = "img/team-images/Dominique-Bouavichith.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>DOMINIQUE BOUAVICITH</b>
-            </p>
-            <p>
-              Linguistics PhD Student<br><br>
-              Dom is a Linguistics graduate student who studies phonetics and language variation. Within the scope of the Collaboratory, Dom has been working on lenition in Spanish-Afrikaans bilingual speakers. He has also helped in coordinating the various acoustics projects underway and is working on data extraction and analysis for the three vowel projects.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>ANDRIES COETZEE</b>
-            </p>
-            <p>
-              Faculty Collaborator<br><br>
-              Andries Coetzee is a linguistics professor at the University of Michigan, specializing in phonetics, phonology, and language variation. He is a native speaker of Afrikaans, and therefore contributes to the Afrikaans components of this project. He also brings cultural and historical knowledge about South Africa to the collaboration.<br><br>
-              <a href = "www.umich.edu/~coetzee">www.umich.edu/~coetzee</a>
-            </p>
-          </td>
-          <td width = 30%>
-            <img src = "img/team-images/Andries-Coetzee.jpg" style = "border-radius:50%" width = "200px" height = width/>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30% >
-            <img src = "img/team-images/Ella-Deaton.jpeg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>ELLA DEATON</b>
-            </p>
-            <p>
-              Spanish Linguistics BA (2017)<br><br>
-              Ella is a recent graduate of the University of Michigan, planning on pursuing graduate studies in linguistics. Ella is specifically interested in Spanish phonetic research. Ella's role in the Argentine Afrikaners project is in analyzing the front vowels /ɛ e/ of bilingual speakers.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>MALLORY FULLER</b>
-            </p>
-            <p>
-              Linguistics & Spanish BA (2017)<br><br>
-              Mallory is a recent graduate of the university with degrees in Linguistics and Spanish. Mallory is excited to be involved in this Collaboratory with her linguistics professors and classmates. She is working on the acoustic analysis of back vowel production /a o c/ in the monolingual speakers. In the future she plans to pursue a graduate program in either Speech Language Pathology or Clinical Mental Health Counseling.
-            </p>
-          </td>
-          <td width = 30%>
-            <img src = "img/team-images/Mallory.jpg" style = "border-radius:50%" width = "200px" height = width/>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30% >
-            <img src = "img/team-images/Lorenzo-Garcia.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>LORENZO GARCIA-AMAYA</b>
-            </p>
-            <p>
-              Faculty Collaborator<br><br>
-              Lorenzo García-Amaya is Assistant Professor in RLL. His research focuses on the development of fluency and cognitive abilities by second language learners and how cognitive processing abilities affect second language speech development. For the Argentine Afrikaners Collaboratory project, Lorenzo spearheads the in-depth fluency analysis of the Spanish-Afrikaans bilingual speech community.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>LIBBY GARNO</b>
-            </p>
-            <p>
-              Spanish & International Studies BA (2016)<br><br>
-              Libby Garno is a recent graduate of the University of Michigan and currently works as the Lab Manager for the UMich Speech Production Lab. In the Collaboratory she coordinates the Spanish fluency analysis for both monolingual and bilingual speakers. She also conducts phonetic analysis on /kə/ contexts for the Afrikaans speakers.
-            </p>
-          </td>
-          <td width = 30% >
-            <img src = "img/team-images/Libby-Garno.jpg" style = "border-radius:50%" width = "200px" height = width/>`
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30%>
-            <img src = "img/team-images/Nicholas-Henriksen.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>NICHOLAS HENRIKSEN</b>
-            </p>
-            <p>
-              Faculty Collaborator & Principal Investigator<br><br>
-              Nick Henriksen is Assistant Professor in RLL and Linguistics. As the Principal Investigator of the Argentine Afrikaners Collaboratory project, Nick oversees all research and mentoring activities, and also establishes the guidelines for the collaborative workflow. His research focuses on phonetics, phonology, and language variation across varieties of Spanish. For the Argentine Afrikaners Collaboratory project, he analyzes the hybrid nature of the bilinguals' phonological systems.
-              <br><br><a href = "http://www-personal.umich.edu/~nhenriks/">http://www-personal.umich.edu/~nhenriks/</a></p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>KATE JENCKES</b>
-            </p>
-            <p>
-              Faculty Collaborator<br><br>
-              Kate Jenckes is Professor of Spanish in the Department of Romance Languages and Literatures at UM. She has authored two books on Chilean and Argentine literature and culture. For the Argentine Afrikaners Collaboratory project, Kate is serving as a historical and cultural consultant on issues of national identity in twentieth-century Argentina.
-            </p>
-          </td>
-          <td width = 30% >
-            <img src = "img/team-images/Kate.jpg" style = "border-radius:50%" width = "200px" height = width />`
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30%>
-            <img src = "img/team-images/Claire-Laing.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>CLAIRE LAING</b>
-            </p>
-            <p>
-              Spanish & Linguistics BA (2017)<br><br>
-              Claire Laing just graduated (April 2017) with a bachelor of arts in Spanish and linguistics. She is working with the humanities collaboratory this summer, specifically, on the acoustic analysis of the back vowels /a a: ɔ/ (in Afrikaans) and /a o/ (in Spanish) for the bilingual speakers.
-            </p>
-            </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>SEAN LANG</b>
-            </p>
-            <p>
-              Spanish & Neuroscience BA (2019)<br><br>
-              Sean Lang is an undergraduate student entering his third year at the University of Michigan. In the lab, he works primarily on the linguistic side of the project, on fluency analysis – marking filled and silent pauses while transcribing speech. In addition to working in the lab, Sean works in a neuroscience lab, writes for The Michigan Daily, plays for Magnum Ultimate (Michigan men's club ultimate frisbee team), and is Vice President of his professional fraternity, Phi Sigma Pi.
-            </p>
-          </td>
-          <td width = 30% >
-            <img src = "img/team-images/Sean-Lang.png" style = "border-radius:50%" width = "200px" height = width/>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30%>
-            <img src = "img/team-images/Lilliana-DeLeon.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>LILIANA DE LEON</b>
-            </p>
-            <p>
-              Psychology & Spanish Linguistics BA (2017)<br><br>
-              Liliana is a recent graduate, and next fall will be attending Indiana University to obtain her master's degree in Speech-Language Pathology. Literacy development is a strong interest of hers and she would like to conduct further research on The Word Gap. Her focus on the Argentine Afrikaner Collaboratory project is analyzing the front vowel /ɛ e/ in monolingual and bilingual speakers.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>MOIZ MAHMOOD</b>
-            </p>
-            <p>
-              Computer Science & Linguistics BA (2020)<br><br>
-              Moiz Mahmood is collecting data for fluency analysis in Spanish for the bilingual speakers.
-            </p>
-          </td>
-          <td width = 30% >
-            <img src = "img/team-images/Moiz-Mahmood.jpg" style = "border-radius:50%" width = "200px" height = width/>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30%>
-            <img src = "img/team-images/Joshua-Shapero.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>JOSHUA SHAPERO</b>
-            </p>
-            <p>
-              Anthropology PhD Student<br><br>
-              Joshua Shapero is a recent PhD in Linguistic Anthropology at the University of Michigan. His work draws on mixed methods, combining ethnographic, grammatical, and experimental research among Ancash Quechua speakers in the central Peruvian Andes to study mechanisms of interconnection among language, environmental practice, and cognition. In this project he is working with Professor Szpiech to understand discourses of race, language, history, and religion among South African Argentinians.
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 70% style = "text-align: right; padding-right: 5%">
-            <p>
-              <b>RYAN SZPIECH</b>
-            </p>
-            <p>
-              Faculty Collaborator<br><br>
-              Ryan Szpiech is an Associate Professor in Romance Languages at the University of Michigan. He studies religious hybridity, translation, and cultural contact in the Hispanic world. In this project, he is analyzing the references to religious, cultural, and linguistic identity in the South African Argentine community.
-            </p>
-          </td>
-          <td width = 30% >
-            <img src = "img/team-images/Ryan-Szpiech.jpg" style = "border-radius:50%" width = "200px" height = width/>
-          </td>
-
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
-      <table class = "team-member" align = "center" width = "80%">
-        <tr>
-          <td width = 30%>
-            <img src = "img/team-images/Ishan-Vashishta.jpg" style = "border-radius:50%" width = "200px" height = width align = "right"/>
-          </td>
-          <td width = 70% style = "text-align: left; padding-left: 5%">
-            <p>
-              <b>ISHAN VASHISHTA</b>
-            </p>
-            <p>
-              Computer Science BS (2019)<br><br>
-              Ishan Vashishta is a rising junior at the University of Michigan. Ishan is using his web development skills
-              to construct a website for the collaboration
-            </p>
-          </td>
-        </tr>
-      </table>
-      <hr class = "team-line" width = "80%">
+  </td>
+  <!--All the Bios!-->
+  <td width = 30% style = "padding-left: 50px">
+    <!--Paulina Bio-->
+    <div id = "paulina-bio" style="display:block">
+      <img src = "img/team-images/Paulina-Alberto.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align: left">
+        <br>
+        Paulina L. Alberto is Associate Professor in the Departments of History and of RLL. Her current research on the (in)famous porteño street character Raúl Grigera (“el negro Raúl”) and explores the power of racial stories to construct “whiteness” and “blackness” in twentieth-century Argentina and to shape individual fates. For the Argentine Afrikaners Collaboratory project, she's serving as a historical consultant on issues of race and national identity in twentieth-century Argentina.
+      </p>
     </div>
-      </div>
-    -->
-    </section>
 
+    <!--Dominique Bio-->
+    <div id = "dominique-bio" style="display:none">
+      <img src = "img/team-images/Dominique-Bouavichith.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align: left">
+        <br>
+        Linguistics PhD Student<br><br>
+        Dom is a Linguistics graduate student who studies phonetics and language variation. Within the scope of the Collaboratory, Dom has been working on lenition in Spanish-Afrikaans bilingual speakers. He has also helped in coordinating the various acoustics projects underway and is working on data extraction and analysis for the three vowel projects.
+      </p>
+    </div>
 
+    <!--Andries Bio-->
+    <div id = "andries-bio" style="display:none">
+      <img src = "img/team-images/Andries-Coetzee.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align: left">
+        <br>
+        Andries Coetzee is a linguistics professor at the University of Michigan, specializing in phonetics, phonology, and language variation. He is a native speaker of Afrikaans, and therefore contributes to the Afrikaans components of this project. He also brings cultural and historical knowledge about South Africa to the collaboration.<br><br>
+        <a href = "www.umich.edu/~coetzee">www.umich.edu/~coetzee</a>
+      </p>
+    </div>
 
+    <!--Ella Bio-->
+    <div id = "ella-bio" style="display:none">
+      <img src = "img/team-images/Ella-Deaton.jpeg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align: left">
+        <br>Spanish Linguistics BA (2017)<br><br>
+        Ella is a recent graduate of the University of Michigan, planning on pursuing graduate studies in linguistics. Ella is specifically interested in Spanish phonetic research. Ella's role in the Argentine Afrikaners project is in analyzing the front vowels /ɛ e/ of bilingual speakers.
+      </p>
+    </div>
+
+    <!--Mallory Bio-->
+    <div id = "mallory-bio" style="display:none">
+      <img src = "img/team-images/Mallory.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Linguistics & Spanish BA (2017)<br><br>
+        Mallory is a recent graduate of the university with degrees in Linguistics and Spanish. Mallory is excited to be involved in this Collaboratory with her linguistics professors and classmates. She is working on the acoustic analysis of back vowel production /a o c/ in the monolingual speakers. In the future she plans to pursue a graduate program in either Speech Language Pathology or Clinical Mental Health Counseling.
+      </p>
+    </div>
+
+    <!--Lorenzo Bio-->
+    <div id = "lorenzo-bio" style="display:none">
+      <img src = "img/team-images/Lorenzo-Garcia.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>
+        Lorenzo García-Amaya is Assistant Professor in RLL. His research focuses on the development of fluency and cognitive abilities by second language learners and how cognitive processing abilities affect second language speech development. For the Argentine Afrikaners Collaboratory project, Lorenzo spearheads the in-depth fluency analysis of the Spanish-Afrikaans bilingual speech community.
+      </p>
+    </div>
+
+    <!--Libby Bio-->
+    <div id = "libby-bio" style="display:none">
+      <img src = "img/team-images/Libby-Garno.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Spanish & International Studies BA (2016)<br><br>
+        Libby Garno is a recent graduate of the University of Michigan and currently works as the Lab Manager for the UMich Speech Production Lab. In the Collaboratory she coordinates the Spanish fluency analysis for both monolingual and bilingual speakers. She also conducts phonetic analysis on /kə/ contexts for the Afrikaans speakers.
+      </p>
+    </div>
+
+    <!--Nicholas Bio-->
+    <div id = "nicholas-bio" style="display:none">
+      <img src = "img/team-images/Nicholas-Henriksen.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>
+        Nick Henriksen is Assistant Professor in RLL and Linguistics. As the Principal Investigator of the Argentine Afrikaners Collaboratory project, Nick oversees all research and mentoring activities, and also establishes the guidelines for the collaborative workflow. His research focuses on phonetics, phonology, and language variation across varieties of Spanish. For the Argentine Afrikaners Collaboratory project, he analyzes the hybrid nature of the bilinguals' phonological systems.
+        <br><br><a href = "http://www-personal.umich.edu/~nhenriks/">http://www-personal.umich.edu/~nhenriks/</a>
+      </p>
+
+    </div>
+
+    <!--Kate Bio-->
+    <div id = "kate-bio" style="display:none">
+      <img src = "img/team-images/Kate.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Kate Jenckes is Professor of Spanish in the Department of Romance Languages and Literatures at UM. She has authored two books on Chilean and Argentine literature and culture. For the Argentine Afrikaners Collaboratory project, Kate is serving as a historical and cultural consultant on issues of national identity in twentieth-century Argentina.
+      </p>
+    </div>
+
+    <!--Claire Bio-->
+    <div id = "claire-bio" style="display:none">
+      <img src = "img/team-images/Claire-Laing.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Spanish & Linguistics BA (2017)<br><br>
+        Claire Laing just graduated (April 2017) with a bachelor of arts in Spanish and linguistics. She is working with the humanities collaboratory this summer, specifically, on the acoustic analysis of the back vowels /a a: ɔ/ (in Afrikaans) and /a o/ (in Spanish) for the bilingual speakers.
+      </p>
+    </div>
+
+    <!--Sean Bio-->
+    <div id = "sean-bio" style="display:none">
+      <img src = "img/team-images/Sean-Lang.png" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Spanish & Neuroscience BA (2019)<br><br>
+        Sean Lang is an undergraduate student entering his third year at the University of Michigan. In the lab, he works primarily on the linguistic side of the project, on fluency analysis – marking filled and silent pauses while transcribing speech. In addition to working in the lab, Sean works in a neuroscience lab, writes for The Michigan Daily, plays for Magnum Ultimate (Michigan men's club ultimate frisbee team), and is Vice President of his professional fraternity, Phi Sigma Pi.
+      </p>
+    </div>
+
+    <!--Liliana Bio-->
+    <div id = "liliana-bio" style="display:none">
+      <img src = "img/team-images/Lilliana-DeLeon.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        Psychology & Spanish Linguistics BA (2017)<br><br>
+        Liliana is a recent graduate, and next fall will be attending Indiana University to obtain her master's degree in Speech-Language Pathology. Literacy development is a strong interest of hers and she would like to conduct further research on The Word Gap. Her focus on the Argentine Afrikaner Collaboratory project is analyzing the front vowel /ɛ e/ in monolingual and bilingual speakers.
+      </p>
+    </div>
+
+    <!--Moiz Bio-->
+    <div id = "moiz-bio" style="display:none">
+      <img src = "img/team-images/Moiz-Mahmood.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>  Computer Science & Linguistics BA (2020)<br><br>
+          Moiz Mahmood is collecting data for fluency analysis in Spanish for the bilingual speakers.
+        </p>
+    </div>
+
+    <!--Joshua Bio-->
+    <div id = "joshua-bio" style="display:none">
+      <img src = "img/team-images/Joshua-Shapero.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Anthropology PhD Student<br><br>
+        Joshua Shapero is a recent PhD in Linguistic Anthropology at the University of Michigan. His work draws on mixed methods, combining ethnographic, grammatical, and experimental research among Ancash Quechua speakers in the central Peruvian Andes to study mechanisms of interconnection among language, environmental practice, and cognition. In this project he is working with Professor Szpiech to understand discourses of race, language, history, and religion among South African Argentinians.
+      </p>
+    </div>
+
+    <!--Ryan Bio-->
+    <div id = "ryan-bio" style="display:none">
+      <img src = "img/team-images/Ryan-Szpiech.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        Ryan Szpiech is an Associate Professor in Romance Languages at the University of Michigan. He studies religious hybridity, translation, and cultural contact in the Hispanic world. In this project, he is analyzing the references to religious, cultural, and linguistic identity in the South African Argentine community.
+      </p>
+    </div>
+
+    <!--Ishan Bio-->
+    <div id = "ishan-bio" style="display:none;">
+      <img src = "img/team-images/Ishan-Vashishta.jpg" style = "border-radius:50%" width = "80%" height = width/>
+      <p style = "text-align:left">
+        <br>Computer Science BS (2019)<br><br>
+        Ishan Vashishta is a rising junior at the University of Michigan. Ishan is using his web development skills
+        to construct a website for the collaboration
+      </p>
+    </div>
+
+  </td>
+
+  </table>
+</section>
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p style = "font-family: Helvetica;font-size: 15px">Copyright &copy; Argentinan Afrikans Collaboratory 2017</p>
+            <p style = "font-family: Helvetica;font-size: 15px">Copyright © Argentine Afrikaners Collaboratory 2017</p>
         </div>
     </footer>
 

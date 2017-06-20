@@ -1,3 +1,13 @@
+function changeCollab($collab_id){
+    document.getElementById("first").style.display = 'none';
+    document.getElementById("second").style.display = 'none';
+    document.getElementById("third").style.display = 'none';
+    document.getElementById("fourth").style.display = 'none';
+    document.getElementById($collab_id).style.display = 'block';
+}
+
+
+
 function showBio($person_id, $person_face){
 
   //HIDE ALL THE BIOS and dim all the faces

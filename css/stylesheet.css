@@ -29,3 +29,12 @@ img.team-image:hover{
   background-color:white;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+.press-box{
+  width: 15%;
+  padding-left:2%;
+  padding-bottom:4%;
+}
+.press-box:hover{
+  filter:grayscale(100%);
+}

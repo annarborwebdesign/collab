@@ -1,8 +1,22 @@
 img.team-image{
-  -webkit-filter: brightness(30%);
-  filter: brightness(30%);
+  filter: brightness(50%);
+  max-width: 25%;
+  border-radius: 50%;
+  padding-left:2%;
+  padding-bottom:1%;
+
 }
 img.team-image:hover{
-  -webkit-filter: brightness(100%);
-  filter: brightness(100%);
+  filter: brightness(100%) !important;
+}
+
+.hidden-bio-image{
+  border-radius:50%;
+}
+
+.bio-container{
+  display:none;
+  background-color:#708090;
+  padding-top:2%;
+  padding-bottom:1%
 }

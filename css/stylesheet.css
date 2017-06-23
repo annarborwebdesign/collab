@@ -20,3 +20,12 @@ img.team-image:hover{
   padding-top:2%;
   padding-bottom:1%
 }
+.outerPress{
+  display: block;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+.innerPress{
+  display: inline-block;
+  background-color:white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}

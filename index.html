@@ -1,187 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property=”og:title” content="Afrikaans in Patagonia" />
-    <meta property=”og:description” content="University of Michigan Argentine Afrikaners Collaboratory" />
-    <meta property=”og:image” content=”img/background-images/horse-man.jpg”/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property=”og:title” content="Afrikaans in Patagonia" />
+  <meta property=”og:description” content="University of Michigan Argentine Afrikaners Collaboratory" />
+  <meta property=”og:image” content=”img/background-images/horse-man.jpg”/>
+  <link rel="shortcut icon" type="image/x-icon" href="img/CollabLogo.png" />
+  <title>Argentine Afrikaners Collaboratory</title>
 
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link href="css/project.css" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/CollabLogo.png" />
-    <title>Argentine Afrikaners Collaboratory</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- Personal Style Sheet-->
-    <link rel="stylesheet" href="css/stylesheet.css">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/project.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]
-      background-attachment: fixed;
-  -->
-    <style>
-      @media (max-width: 640px) {
-        div.mobile { display: block }
-        div.desktop { display: none }
-      }
-      #who-are-we{
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: top center !important;
-        background-repeat: no-repeat !important;
-        background-image: url("img/background-images/TeamAbout3.jpg");
-        height:600px;
-      }
-      #in-between {
-        height:20px;
-      }
-      #what-are-we-doing{
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: top center !important;
-        background-repeat: no-repeat !important;
-        background-image: url("img/background-images/MoizMallory.jpg");
-        height:600px;
-      }
-      #why-does-it-matter{
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: top center !important;
-        background-repeat: no-repeat !important;
-        background-image: url("img/background-images/cooking.jpg");
-        height:600px;
-      }
-    </style>
-
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  Menu <i class="fa fa-bars"></i>
+              </button>
+          </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="community.html">Community</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="collaboration.html">Collaboration</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="findings.html">Findings</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="press.html">Press</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#home">Home</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="community.html">Community</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="collaboration.html">Collaboration</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="findings.html">Findings</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="team.html">Team</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="press.html">Press</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <div>
-                        <h1 style = "font-size:60px; color:white;">AFRIKAANS IN PATAGONIA</h1>
-                      </div>
-                        <p class="intro-text"> Interrogating Hybridity in a Unique Diasporic Community</p>
-                        <a href="#who-are-we" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+  <!-- Intro Header -->
+  <header class="intro">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                    <div>
+                      <h1 style = "font-size:60px; color:white;">AFRIKAANS IN PATAGONIA</h1>
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id ="in-between"></section>
-
-    <!-- About Section -->
-    <section id="who-are-we">
-      <div align = "left" style = "pading-top:100px; padding-left: 150px;">
-        <div>
-          <h1 width = 50% style = "padding-top: 100px;"> Who Are We? </h1><br><br>
-          <p style = "width:40%;text-align: center"> We are an interdisciplinary and inter-generational research team investigating a unique linguistic and cultural contact situation between Spanish and Afrikaans speakers in Patagonia, Argentina. Our project is funded in part by a grant from the University of Michigan Humanities Collaboratory. <br><br><a href="team.html" class = "btn btn-default">Meet Our Team</a></p>
+                      <p class="intro-text"> Interrogating Hybridity in a Unique Diasporic Community</p>
+                      <a href="#who-are-we" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
       </div>
+  </header>
+
+  <section id ="in-between"></section>
+
+  <!-- Who is the team? Section -->
+  <section id="who-are-we">
+    <div align="left" style="pading-top:100px; padding-left:150px;">
+      <div>
+        <h1 width=50% style="padding-top:100px;"> Who Are We? </h1>
+        <br><br>
+        <p style="width:40%; text-align:center"> We are an interdisciplinary and inter-generational research team investigating a unique linguistic and cultural contact situation between Spanish and Afrikaans speakers in Patagonia, Argentina. Our project is funded in part by a grant from the University of Michigan Humanities Collaboratory.
+          <br><br>
+          <a href="team.html" class = "btn btn-default">Meet Our Team</a>
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id ="in-between"></section>
+  <section id ="in-between"></section>
 
-    <section id="what-are-we-doing">
-      <div align = "center" style = "pading-top:150px">
-        <h1 style = "padding-top: 100px;"> What Are We Doing? </h1><br><br>
-        <p style = "width:40%;text-align: center">We are combining linguistic, ethnographic, and historical methods in order to explore the voices and ideologies of a displaced Afrikaans community that has resided in Patagonia, Argentina for the past 110+ years.<br><br><a href="collaboration.html" class = "btn btn-default">Learn About Collaboration</a></p>
-      </div>
-    </section>
+  <!-- What are we doing? Section -->
+  <section id="what-are-we-doing">
+    <div align="center" style="pading-top:150px">
+      <h1 style="padding-top:100px">What Are We Doing?</h1>
+      <br><br>
+      <p style="width:40%; text-align:center">We are combining linguistic, ethnographic, and historical methods in order to explore the voices and ideologies of a displaced Afrikaans community that has resided in Patagonia, Argentina for the past 110+ years.
+        <br><br>
+        <a href="collaboration.html" class="btn btn-default">Learn About Collaboration</a>
+      </p>
+    </div>
+  </section>
 
-    <section id ="in-between"></section>
+  <section id ="in-between"></section>
 
-    <section id="why-does-it-matter">
-      <div align = "right" style = "padding-right:100px; pading-top:150px">
-        <h1 style = "padding-top: 100px;"> Why is this Important? </h1><br><br>
-        <p style = "width:40%;text-align: center">Our research speaks to the intersection of immigration and the formation of community identity in exile. Our findings derive from an exceptional situation of cultural and linguistic contact that is not replicated in any other location in the world.<br><br><a href="community.html" class = "btn btn-default">Learn About the Community</a></p>
-      </div>
-    </section>
+  <!-- Why does it matter? Section -->
+  <section id="why-does-it-matter">
+    <div align="right" style="padding-right:100px; pading-top:150px">
+      <h1 style="padding-top:100px"> Why is this Important? </h1>
+      <br><br>
+      <p style="width:40%; text-align:center">Our research speaks to the intersection of immigration and the formation of community identity in exile. Our findings derive from an exceptional situation of cultural and linguistic contact that is not replicated in any other location in the world.
+        <br><br>
+        <a href="community.html" class="btn btn-default">Learn About the Community</a>
+      </p>
+    </div>
+  </section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-
+  <!-- Javascript-->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/grayscale.min.js"></script>
 
 </body>
-
 </html>

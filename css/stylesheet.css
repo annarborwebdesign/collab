@@ -1,11 +1,84 @@
+/*GENERAL STYLE*/
+
+@media (max-width: 640px) {
+  div.mobile { display: block }
+  div.desktop { display: none }
+}
+
+#in-between {
+  height:20px;
+}
+
+/*INDEX STYLE*/
+
+#who-are-we{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../img/background-images/TeamAbout3.jpg");
+  height:600px;
+}
+
+#what-are-we-doing{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../img/background-images/MoizMallory.jpg");
+  height:600px;
+}
+
+#why-does-it-matter{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../img/background-images/cooking.jpg");
+  height:600px;
+}
+
+/*COMMUNITY STYLE*/
+
+
+
+
+
+
+/*COLLABORATION STYLE*/
+.icon-collab{
+  color:white;
+  border:1px solid #000;
+  font-size:100px;
+}
+
+.collab-people{
+  border-radius:50%;
+}
+
+.collab-subtitle{
+  color:white;
+}
+
+/*FINDINGS STYLE*/
+
+
+
+
+
+
+/*TEAM STYLE*/
 img.team-image{
   filter: brightness(90%);
   max-width: 25%;
   border-radius: 50%;
   padding-left:2%;
   padding-bottom:1%;
-
 }
+
 img.team-image:hover{
   filter: brightness(100%) !important;
 }
@@ -20,6 +93,8 @@ img.team-image:hover{
   padding-top:2%;
   padding-bottom:1%
 }
+
+/*PRESS STYLE*/
 .outerPress{
   display: block;
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -37,18 +112,4 @@ img.team-image:hover{
 }
 .press-box:hover{
   filter:grayscale(100%);
-}
-
-.icon-collab{
-  color:white;
-  border:1px solid #000;
-  font-size:100px;
-}
-
-.collab-people{
-  border-radius:50%;
-}
-
-.collab-subtitle{
-  color:white;
 }

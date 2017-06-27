@@ -38,3 +38,17 @@ img.team-image:hover{
 .press-box:hover{
   filter:grayscale(100%);
 }
+
+.icon-collab{
+  color:white;
+  border:1px solid #000;
+  font-size:100px;
+}
+
+.collab-people{
+  border-radius:50%;
+}
+
+.collab-subtitle{
+  color:white;
+}

@@ -94,13 +94,13 @@ div.desktop{
 }
 
 li.timeline {
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
   text-align: center;
-  line-height: 2em;
-  border-radius: 1em;
+  line-height: 1em;
+  border-radius: 0.5em;
   background: red;
-  margin: 0 1em;
+  margin: 0 0.5em;
   display: inline-block;
   color: white;
   position: relative;
@@ -109,10 +109,10 @@ li.timeline {
 li.timeline::before{
   content: '';
   position: absolute;
-  top: .9em;
-  left: -4em;
-  width: 4em;
-  height: .2em;
+  top: .45em;
+  left: -2em;
+  width: 2em;
+  height: .1em;
   background: red;
   z-index: -1;
 }
@@ -213,7 +213,7 @@ img.team-image:hover{
 
 /*PRESS STYLE*/
 .outerPress{
-  display: block;
+  display: inline;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 .innerPress{

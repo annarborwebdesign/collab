@@ -1,9 +1,14 @@
 /*GENERAL STYLE*/
 
+div.mobile {
+  display:none;
+}
+
 @media (max-width: 640px) {
   div.mobile { display: block }
   div.desktop { display: none }
 }
+
 
 #in-between {
   height:20px;
@@ -42,24 +47,100 @@
 }
 
 /*COMMUNITY STYLE*/
+#wrapper {
+  width: 90%;
+  border: 1px solid black;
+  overflow: hidden;
+}
 
+#year {
+  width:20%;
+  float:left;
+  color:white;
+  font-size:20px;
+  text-align:center;
+  padding-left:15%;
+}
 
+#event {
+  width:80%;
+  float:right;
+  overflow: hidden;
+}
 
+li.timeline {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: red;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
 
+li.timeline::before{
+  content: '';
+  position: absolute;
+  top: .9em;
+  left: -4em;
+  width: 4em;
+  height: .2em;
+  background: red;
+  z-index: -1;
+}
 
+li.timeline:first-child::before {
+  display: none;
+}
+
+.active {
+  background: red;
+}
+
+.active ~ li.timeline {
+  background: white;
+}
+
+.active ~ li.timeline::before {
+  background: white;
+}
 
 /*COLLABORATION STYLE*/
-.icon-collab{
+#collab-wrapper {
+  width: 90%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#first {
+  width: 60%;
+  float:left;
+  color:white;
+  font-size:20px;
+  text-align:center;
+  padding-left:15%;
+}
+
+#second {
+  width:40%;
+  float:right;
+  overflow: hidden;
+}
+
+.icon-collab {
   color:white;
   border:1px solid #000;
   font-size:100px;
 }
 
-.collab-people{
+.collab-people {
   border-radius:50%;
 }
 
-.collab-subtitle{
+.collab-subtitle {
   color:white;
 }
 
@@ -71,6 +152,17 @@
 
 
 /*TEAM STYLE*/
+#team-image{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-image: url("img/team-back.jpg");
+  height:200px;
+}
+
 img.team-image{
   filter: brightness(90%);
   max-width: 25%;

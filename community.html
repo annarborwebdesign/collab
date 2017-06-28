@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,608 +8,511 @@
     <meta property=”og:description” content="University of Michigan Argentine Afrikaners Collaboratory" />
     <meta property=”og:image” content=”img/background-images/horse-man.jpg”/>
     <link rel="shortcut icon" type="image/x-icon" href="img/CollabLogo.png" />
-    <title>Argentine Afrikaners Collaboratory</title>
+    <title>Meet the Community</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- Personal Style Sheet-->
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="css/community.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="css/community.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <style>
-      @media (max-width: 640px) {
-        div.mobile { display: block }
-        div.desktop { display: none }
-      }
-      #wrapper {
-        width: 90%;
-        border: 1px solid black;
-        overflow: hidden; /* will contain if #first is longer than #second */
-      }
-      #year {
-          width:20%;
-          float:left;
-          color:white;
-          font-size:20px;
-          text-align:center;
-          padding-left:15%;
-      }
-      #event {
-          width:80%;
-          float:right;
-          overflow: hidden; /* if you don't want #second to wrap below #first */
-      }
-
-      li.timeline {
-        width: 2em;
-        height: 2em;
-        text-align: center;
-        line-height: 2em;
-        border-radius: 1em;
-        background: red;
-        margin: 0 1em;
-        display: inline-block;
-        color: white;
-        position: relative;
-      }
-
-      li.timeline::before{
-        content: '';
-        position: absolute;
-        top: .9em;
-        left: -4em;
-        width: 4em;
-        height: .2em;
-        background: red;
-        z-index: -1;
-      }
-
-
-      li.timeline:first-child::before {
-        display: none;
-      }
-
-      .active {
-        background: red;
-      }
-
-      .active ~ li.timeline {
-        background: white;
-      }
-
-      .active ~ li.timeline::before {
-        background: white;
-      }
-    </style>
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  Menu <i class="fa fa-bars"></i>
+              </button>
+          </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Community</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="collaboration.html">Collaboration</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="findings.html">Findings</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="press.html">Press</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#">Community</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="collaboration.html">Collaboration</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="findings.html">Findings</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="team.html">Team</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="press.html">Press</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 style = "font-size:60px; ">MEET THE COMMUNITY</h1>
-                        <a href="#community" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+  <!-- Intro Header -->
+  <header class="intro">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <h1 style = "font-size:60px; ">MEET THE COMMUNITY</h1>
+                      <a href="#community" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
 
-      <!--Community-->
-      <section id="community" class="container content-section text-center">
-        <hr class = "team-line" width = "80%">
-        <table width = "80%" align = "center">
-          <br>
-          <tr>
-            <td align = center >
-              <h1 class="collab-subtitle" >Community Timeline</h1>
-            </td>
-          </tr>
-        </table>
-        <hr class = "team-line" width = "80%">
+    <!--Community-->
+    <section id="community" class="container content-section text-center">
+      <hr class = "team-line" width = "80%">
+      <table width = "80%" align = "center">
+        <br>
+        <tr>
+          <td align = center >
+            <h1 class="collab-subtitle" >Community Timeline</h1>
+          </td>
+        </tr>
+      </table>
+      <hr class = "team-line" width = "80%">
 
-        <!--First Timeline Event-->
-        <div id="timeline1">
-          <ul>
-            <li class="timeline active"></li>
-            <li class="timeline" onclick=changeTimeline(2)></li></button>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--First Timeline Event-->
+      <div id="timeline1">
+        <ul>
+          <li class="timeline active"></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center" class="timelineOne">
-            <div align="center" style="width:80%;align:center">
-              <span style="font-family:Arial; font-size:40px">Second Anglo Boer War</span>
-              <span style="font-family:Arial; font-size:40px"><br>1899 - 1902</span>
-              <span><br> The Second Boer War, usually known as the Boer War and also at the time as the South African War, started on 11 October 1899 and ended on 31 May 1902. Great Britain defeated two Boer states in South Africa: the South African Republic (Republic of Transvaal) and the Orange Free State. Britain was aided by its Cape Colony, the Colony of Natal and some native African allies. The British war effort was further supported by volunteers from the British Empire, including Southern Africa, the Australian colonies, Canada, India and New Zealand. All other nations were neutral, but public opinion in them was largely hostile to Britain. Inside Britain and its Empire there also was significant opposition to the Second Boer War.</span>
-
-
-            </div>
+        <div align="center" class="timelineOne">
+          <div align="center" style="width:80%;align:center">
+            <span style="font-family:Arial; font-size:40px">Second Anglo Boer War</span>
+            <span style="font-family:Arial; font-size:40px"><br>1899 - 1902</span>
+            <span><br> The Second Boer War, usually known as the Boer War and also at the time as the South African War, started on 11 October 1899 and ended on 31 May 1902. Great Britain defeated two Boer states in South Africa: the South African Republic (Republic of Transvaal) and the Orange Free State. Britain was aided by its Cape Colony, the Colony of Natal and some native African allies. The British war effort was further supported by volunteers from the British Empire, including Southern Africa, the Australian colonies, Canada, India and New Zealand. All other nations were neutral, but public opinion in them was largely hostile to Britain. Inside Britain and its Empire there also was significant opposition to the Second Boer War.</span>
           </div>
         </div>
+      </div>
 
-        <!--Second Timeline Event-->
-        <div id="timeline2" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline active"></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Second Timeline Event-->
+      <div id="timeline2" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline active"></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1901</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Comodoro Rivadavia incorporated as a town</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1901</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Comodoro Rivadavia incorporated as a town</span>
           </div>
         </div>
+      </div>
 
-        <!--Third Timeline Event-->
-        <div id="timeline3" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimelien(2)></li>
-            <li class="timeline active"></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Third Timeline Event-->
+      <div id="timeline3" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline active"></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">April 1902</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">First group of Boers depart Cape Town for  Argentina on the La Pampa from Cape Town</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">April 1902</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">First group of Boers depart Cape Town for  Argentina on the La Pampa from Cape Town</span>
           </div>
         </div>
+      </div>
 
 
-        <!--Fourth Timeline Event-->
-        <div id="timeline4" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline active" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Fourth Timeline Event-->
+      <div id="timeline4" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline active" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">June 1902</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">First group of Boers arrive at Comodoro Rivadavia (Chubut province,
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">June 1902</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">First group of Boers arrive at Comodoro Rivadavia (Chubut province,
 Argentina)</span>
-            </div>
           </div>
         </div>
+      </div>
 
-        <!--Fifth Timeline Event-->
-        <div id="timeline5" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline active" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Fifth Timeline Event-->
+      <div id="timeline5" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline active" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1907</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">End of migration, with a total of about 600 Afrikaners settled in Comodoro Rivadavia area</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1907</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">End of migration, with a total of about 600 Afrikaners settled in Comodoro Rivadavia area</span>
           </div>
         </div>
+      </div>
 
-        <!--Sixth Timeline Event-->
-        <div id="timeline6" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline active" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Sixth Timeline Event-->
+      <div id="timeline6" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline active" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">December 1907</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Discovery of oil</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">December 1907</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Discovery of oil</span>
           </div>
         </div>
+      </div>
 
-        <!--Seventh Timeline Event-->
-        <div id="timeline7" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline active" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Seventh Timeline Event-->
+      <div id="timeline7" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline active" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1926</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Die Nederduits Gereformeerde Vrouebond (Dutch Reformed Women’s Association) is founded</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1926</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Die Nederduits Gereformeerde Vrouebond (Dutch Reformed Women’s Association) is founded</span>
           </div>
         </div>
+      </div>
 
-        <!--Eighth Timeline Event-->
-        <div id="timeline8" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline active" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Eighth Timeline Event-->
+      <div id="timeline8" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline active" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1938</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">About half of the Afrikaner community repatriate to South Africa</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1938</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">About half of the Afrikaner community repatriate to South Africa</span>
           </div>
         </div>
+      </div>
 
-        <!--Ninth Timeline Event-->
-        <div id="timeline9" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline active" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Ninth Timeline Event-->
+      <div id="timeline9" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline active" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1953</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Last official contact between South Africa and Patagonian Afrikaners </span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1953</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Last official contact between South Africa and Patagonian Afrikaners </span>
           </div>
         </div>
+      </div>
 
-        <!--Tenth Timeline Event-->
-        <div id="timeline10" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline active" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Tenth Timeline Event-->
+      <div id="timeline10" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline active" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1954</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">First record of Dutch Reformed Church minutes in Spanish </span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1954</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">First record of Dutch Reformed Church minutes in Spanish </span>
           </div>
         </div>
+      </div>
 
-        <!--Eleventh Timeline Event-->
-        <div id="timeline11" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline active" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Eleventh Timeline Event-->
+      <div id="timeline11" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline active" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1960's</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Afrikaans is still the most commonly spoken language in Sarmiento (Chubut province, Argentina)</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1960's</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Afrikaans is still the most commonly spoken language in Sarmiento (Chubut province, Argentina)</span>
           </div>
         </div>
+      </div>
 
-        <!--Twelvth Timeline Event-->
-        <div id="timeline12" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline active" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Twelvth Timeline Event-->
+      <div id="timeline12" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline active" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">1995</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Brian du Toit publishes “Colonia Boer: An Afrikaner Settlement in Chubut, Argentina”</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">1995</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Brian du Toit publishes “Colonia Boer: An Afrikaner Settlement in Chubut, Argentina”</span>
           </div>
         </div>
+      </div>
 
-        <!--Thirteenth Timeline Event-->
-        <div id="timeline13" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline active" onclick=changeTimeline(13)></li>
-            <li class="timeline" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Thirteenth Timeline Event-->
+      <div id="timeline13" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline active" onclick=changeTimeline(13)></li>
+          <li class="timeline" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">May 2014</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">UM Fieldwork trip (Andries Coetzee, Lorenzo Garcia-Amaya, Nick Henriksen) to the community</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">May 2014</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">UM Fieldwork trip (Andries Coetzee, Lorenzo Garcia-Amaya, Nick Henriksen) to the community</span>
           </div>
         </div>
+      </div>
 
-        <!--Fourtheenth Timeline Event-->
-        <div id="timeline14" style="display:none">
-          <ul>
-            <li class="timeline" onclick=changeTimeline(1)></li>
-            <li class="timeline" onclick=changeTimeline(2)></li>
-            <li class="timeline" onclick=changeTimeline(3)></li>
-            <li class="timeline" onclick=changeTimeline(4)></li>
-            <li class="timeline" onclick=changeTimeline(5)></li>
-            <li class="timeline" onclick=changeTimeline(6)></li>
-            <li class="timeline" onclick=changeTimeline(7)></li>
-            <li class="timeline" onclick=changeTimeline(8)></li>
-            <li class="timeline" onclick=changeTimeline(9)></li>
-            <li class="timeline" onclick=changeTimeline(10)></li>
-            <li class="timeline" onclick=changeTimeline(11)></li>
-            <li class="timeline" onclick=changeTimeline(12)></li>
-            <li class="timeline" onclick=changeTimeline(13)></li>
-            <li class="timeline active" onclick=changeTimeline(14)></li>
-          </ul>
+      <!--Fourtheenth Timeline Event-->
+      <div id="timeline14" style="display:none">
+        <ul>
+          <li class="timeline" onclick=changeTimeline(1)></li>
+          <li class="timeline" onclick=changeTimeline(2)></li>
+          <li class="timeline" onclick=changeTimeline(3)></li>
+          <li class="timeline" onclick=changeTimeline(4)></li>
+          <li class="timeline" onclick=changeTimeline(5)></li>
+          <li class="timeline" onclick=changeTimeline(6)></li>
+          <li class="timeline" onclick=changeTimeline(7)></li>
+          <li class="timeline" onclick=changeTimeline(8)></li>
+          <li class="timeline" onclick=changeTimeline(9)></li>
+          <li class="timeline" onclick=changeTimeline(10)></li>
+          <li class="timeline" onclick=changeTimeline(11)></li>
+          <li class="timeline" onclick=changeTimeline(12)></li>
+          <li class="timeline" onclick=changeTimeline(13)></li>
+          <li class="timeline active" onclick=changeTimeline(14)></li>
+        </ul>
 
-          <div align="center">
-            <div>
-              <span style="font-family:Arial; font-size:80px">March 2016</span>
-            </div>
-            <div>
-              <span style="font-family:Arial; font-size:40px">Cinema release of “The Boers at the End of the World” in South Africa</span>
-            </div>
+        <div align="center">
+          <div>
+            <span style="font-family:Arial; font-size:80px">March 2016</span>
+          </div>
+          <div>
+            <span style="font-family:Arial; font-size:40px">Cinema release of “The Boers at the End of the World” in South Africa</span>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-    <br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br>
 
+  <!-- Footer -->
+  <footer>
+      <div class="container text-center">
+          <p style = "font-family: Helvetica;font-size: 15px">Copyright © Argentine Afrikaners Collaboratory 2017</p>
+      </div>
+  </footer>
 
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p style = "font-family: Helvetica;font-size: 15px">Copyright © Argentine Afrikaners Collaboratory 2017</p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-
-    <!--Personal javascript-->
-    <script src="js/javascript.js"></script>
-
+  <!-- Javascript -->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/grayscale.min.js"></script>
+  <script src="js/javascript.js"></script>
 
 </body>
-
 </html>

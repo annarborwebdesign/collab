@@ -1,12 +1,14 @@
 /*GENERAL STYLE*/
 
+
+
 div.mobile {
-  display:none;
+  display:block;
 }
 
-@media (max-width: 640px) {
-  div.mobile { display: block }
-  div.desktop { display: none }
+@media (min-width: 640px) {
+  div.mobile { display: none}
+  div.desktop { display: block }
 }
 
 

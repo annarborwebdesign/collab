@@ -199,8 +199,23 @@ li.timeline:first-child::before {
 
 /*FINDINGS STYLE*/
 
+.researchFinding {
+  margin-bottom:2em;
+}
 
+.researchTitle {
+  margin:auto;
+}
+.findingNumber {
+  font-size:7em;
+}
 
+.miniFindingTitle {
+  font-size:2em;
+}
+.findingText {
+
+}
 
 
 

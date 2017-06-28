@@ -76,6 +76,17 @@ html, body {
 height: 100%;
 }
 
+#community{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../img/unused-images/man.jpg");
+  height:50em;
+  text-shadow: 1px 1px #000;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap-community {
 min-height: 100%;

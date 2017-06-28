@@ -72,6 +72,23 @@ div.desktop{
 
 
 /*COMMUNITY STYLE*/
+html, body {
+height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap-community {
+min-height: 100%;
+height: auto;
+margin: 0 auto -60px;
+padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+height: 60px;
+}
+
 #wrapper {
   width: 90%;
   border: 1px solid black;
@@ -94,13 +111,13 @@ div.desktop{
 }
 
 li.timeline {
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
   text-align: center;
-  line-height: 1em;
-  border-radius: 0.5em;
+  line-height: 1.5em;
+  border-radius: 0.75em;
   background: red;
-  margin: 0 0.5em;
+  margin: 0 0.75em;
   display: inline-block;
   color: white;
   position: relative;
@@ -109,10 +126,10 @@ li.timeline {
 li.timeline::before{
   content: '';
   position: absolute;
-  top: .45em;
-  left: -2em;
-  width: 2em;
-  height: .1em;
+  top: .66em;
+  left: -3em;
+  width: 3em;
+  height: .15em;
   background: red;
   z-index: -1;
 }

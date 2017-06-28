@@ -48,8 +48,6 @@ function changeTimeline($idNum){
   }
   return;
 }
-
-
 function clearTimeline(){
 
   document.getElementById("timeline1").style.display = 'none';
@@ -69,6 +67,93 @@ function clearTimeline(){
 
   return;
 }
+
+function changeTimelineMobile($idNum){
+
+  clearTimelineMobile();
+
+  switch($idNum){
+    case 1:
+      document.getElementById("timeline1-mobile").style.display = 'block';
+      break;
+    case 2:
+      document.getElementById("timeline2-mobile").style.display = 'block';
+      break;
+    case 3:
+      document.getElementById("timeline3-mobile").style.display = 'block';
+      break;
+    case 4:
+      document.getElementById("timeline4-mobile").style.display = 'block';
+      break;
+    case 5:
+      document.getElementById("timeline5-mobile").style.display = 'block';
+      break;
+    case 6:
+      document.getElementById("timeline6-mobile").style.display = 'block';
+      break;
+    case 7:
+      document.getElementById("timeline7-mobile").style.display = 'block';
+      break;
+    case 8:
+      document.getElementById("timeline8-mobile").style.display = 'block';
+      break;
+    case 9:
+      document.getElementById("timeline9-mobile").style.display = 'block';
+      break;
+    case 10:
+      document.getElementById("timeline10-mobile").style.display = 'block';
+      break;
+    case 11:
+      document.getElementById("timeline11-mobile").style.display = 'block';
+      break;
+    case 12:
+      document.getElementById("timeline12-mobile").style.display = 'block';
+      break;
+    case 13:
+      document.getElementById("timeline13-mobile").style.display = 'block';
+      break;
+    case 14:
+      document.getElementById("timeline14-mobile").style.display = 'block';
+      break;
+  }
+  return;
+}
+function clearTimelineMobile(){
+
+  document.getElementById("timeline1-mobile").style.display = 'none';
+  document.getElementById("timeline2-mobile").style.display = 'none';
+  document.getElementById("timeline3-mobile").style.display = 'none';
+  document.getElementById("timeline4-mobile").style.display = 'none';
+  document.getElementById("timeline5-mobile").style.display = 'none';
+  document.getElementById("timeline6-mobile").style.display = 'none';
+  document.getElementById("timeline7-mobile").style.display = 'none';
+  document.getElementById("timeline8-mobile").style.display = 'none';
+  document.getElementById("timeline9-mobile").style.display = 'none';
+  document.getElementById("timeline10-mobile").style.display = 'none';
+  document.getElementById("timeline11-mobile").style.display = 'none';
+  document.getElementById("timeline12-mobile").style.display = 'none';
+  document.getElementById("timeline13-mobile").style.display = 'none';
+  document.getElementById("timeline14-mobile").style.display = 'none';
+
+  return;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function changeCollab($collab_id) {

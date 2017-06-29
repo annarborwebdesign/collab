@@ -283,8 +283,6 @@ img.team-image{
   filter: brightness(90%);
   max-width: 25%;
   border-radius: 50%;
-  padding-left:2%;
-  padding-bottom:1%;
 }
 
 img.team-image:hover{

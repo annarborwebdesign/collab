@@ -77,12 +77,7 @@ height: 100%;
 }
 
 #community{
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: top center !important;
-  background-repeat: no-repeat !important;
-  background-image: url("../img/unused-images/man.jpg");
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("../img/unused-images/man.jpg")  no-repeat center center;
   height:50em;
   text-shadow: 1px 1px #000;
 }

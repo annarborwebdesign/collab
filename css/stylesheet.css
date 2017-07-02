@@ -51,7 +51,7 @@ div.desktop{
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: url("../img/background-images/cooking.jpg");
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.6)), url("../img/background-images/cooking.jpg");
   height:50em;
 }
 

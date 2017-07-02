@@ -290,3 +290,16 @@ function hideAllDivsMobile() {
 
   return;
 }
+
+function defineAllo(){
+  var tempStyle = document.getElementById("allophonic").style.display;
+
+  if (tempStyle=='block') {
+    tempStyle='none'
+  }
+  else {
+    tempStyle='block';
+  }
+  document.getElementById("allophonic").style.display = tempStyle;
+  return;
+}

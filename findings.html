@@ -47,9 +47,6 @@
                       <a class="page-scroll" href="community.html">Community</a>
                   </li>
                   <li>
-                      <a class="page-scroll" href="collaboration.html">Collaboration</a>
-                  </li>
-                  <li>
                       <a class="page-scroll" href="#">Findings</a>
                   </li>
                   <li>
@@ -93,12 +90,14 @@
           <td width="50%" style="padding-right:2em"> <img src="img/findings/spanishbygroup.png" width=100%></td>
           <td width="50%" style="padding-left:2em">
             <p class="findingText">
-              It is clear that Spanish speakers use the same vowel space, whether they are monolingual or bilingual. This suggests that there is not an effect of Afrikaans phonology among bilinguals.
+              This graph shows that both monolingual and bilingual speakers of Spanish use the same vowel space. This suggests that there is not an effect of Afrikaans phonology among bilinguals.
+
             </p>
           </td>
         </tr>
       </table>
     </div>
+    <br><br><br><br><br>
 
     <div id="secondFinding" class="researchFinding">
       <hr><div class="researchTitle" align="center">
@@ -109,14 +108,16 @@
         <tr>
           <td width="50%" style="padding-right:2em">
             <p class="findingText">
-              As expected, monolinguals in each language have fairly different vowel spaces. Afrikaans monolinguals have a particularly high degree of variation in their vowels, as shown by the spread of the ellipses.
+              Monolingual Afrikaans speakers and monolingual Spanish speakers have fairly different vowel spaces. Afrikaans monolinguals have a particularly high degree of variation in their vowels, in contrast to Spanish monolinguals.
+
+
             </p>
           </td>
           <td width="50%" style="padding-left:2em"> <img src="img/findings/monolinguals.png" width=100%></td>
         </tr>
       </table>
     </div>
-
+    <br><br><br><br><br>
     <div id="thirdFinding" class="researchFinding">
       <hr><div class="researchTitle" align="center">
         <h4 class="findingNumber"> BILINGUALS</h4>
@@ -127,13 +128,13 @@
           <td width="50%" style="padding-right:2em"> <img src="img/findings/bilinguals.png" width=100%></td>
           <td width="50%" style="padding-left:2em; padding-top:4em">
             <p class="findingText">
-            Bilinguals' vowel space is roughly equivalent regardless of which language is being spoken, and this vowel space resembles that of Spanish monolinguals. This, again, suggests that bilinguals—at least with respect to their vowels—use more Spanish-like phonology in their production of vowels.
+            The bilingual speakers have very similar vowel spaces in Afrikaans and Spanish. Their vowel space resembles that of Spanish monolinguals. This suggests that bilinguals use more Spanish-like phonology in their production of vowels.
             </p>
           </td>
         </tr>
       </table>
     </div>
-
+    <br><br><br><br><br>
 
 
 
@@ -146,8 +147,16 @@
         <tr>
           <td width="50%" style="padding-right:2em">
             <p class="findingText">
-              Afrikaans monolinguals have significantly more variation in their vowel production, which may be accounted for with documented allophonic variations. What is interesting, however, is that Afrikaans bilinguals do not use the same degree of variation.
+              Afrikaans monolinguals have more variation in their vowel production. This is partially an effect of the Afrikaans of the bilinguals lacking <em>allophonic</em> rules that are present in monolingual Afrikaans.
             </p>
+
+            <p onclick=defineAllo() style="cursor:pointer; border-style:solid">Define Allophonic</p>
+
+            <p id="allophonic"  style="display:none; color:white; border: 1px">
+              In the Afrikaans of the monolinguals, the vowel /E/ is pronounced as [ae] before /r,l,k/, and as [E] elsewhere, for the bilinguals /E/ is always pronounced as [E]
+            </p>
+
+
           </td>
           <td width="50%" style="padding-lefta:2em"> <img src="img/findings/afrikaansByGroup.png" width=100%></td>
         </tr>
@@ -175,6 +184,7 @@
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="js/grayscale.min.js"></script>
+  <script src="js/javascript.js"></script>
 
 </body>
 

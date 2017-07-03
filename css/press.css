@@ -221,3 +221,11 @@ a:focus, a:hover {
     transform:scale(1.2);
   }
 }
+
+.pressLink{
+  color:grey;
+  text-decoration:none;
+}
+.pressLink:hover{
+  color:white;
+}

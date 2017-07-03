@@ -234,8 +234,10 @@ a:focus, a:hover {
   }
 }
 
-
-
-.flowChart:hover {
-
+.findingsIcons:hover {
+  height:300px;
+}
+.flowBox:hover{
+  height:600px;
+  width:40%;
 }

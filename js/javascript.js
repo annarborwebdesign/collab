@@ -61,6 +61,9 @@ function hideAllDivs() {
   document.getElementById("ishan-bio").style.display = 'none';
   document.getElementById("ishan-face").style.filter = 'brightness(90%)';
 
+  document.getElementById("ian-bio").style.display = 'none';
+  document.getElementById("ian-face").style.filter = 'brightness(90%)';
+
   return;
 }
 
@@ -125,6 +128,9 @@ function hideAllDivsMobile() {
 
   document.getElementById("ishan-bio-mobile").style.display = 'none';
   document.getElementById("ishan-face-mobile").style.filter = 'brightness(90%)';
+
+  document.getElementById("ian-bio-mobile").style.display = 'none';
+  document.getElementById("ian-face-mobile").style.filter = 'brightness(90%)';
 
   return;
 }

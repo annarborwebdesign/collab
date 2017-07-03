@@ -80,6 +80,11 @@ height: 100%;
   text-shadow: 1px 1px #000;
 }
 
+.dateIdentifier {
+  color: red;
+  
+}
+
 /* Wrapper for page content to push down footer */
 #wrap-community {
 min-height: 100%;

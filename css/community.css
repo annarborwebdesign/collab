@@ -334,3 +334,7 @@ a:focus, a:hover {
   background-repeat: no-repeat !important;
   background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline14.jpg");
 }
+
+.timelineTable {
+  text-shadow: 5px 5px 10px black;
+}

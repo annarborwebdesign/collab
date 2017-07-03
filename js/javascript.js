@@ -147,3 +147,16 @@ function defineAllo(){
   document.getElementById("allophonic").style.display = tempStyle;
   return;
 }
+
+function defineAShortLong(){
+  var tempStyle = document.getElementById("shortlong").style.display;
+
+  if (tempStyle=='block') {
+    tempStyle='none'
+  }
+  else {
+    tempStyle='block';
+  }
+  document.getElementById("shortlong").style.display = tempStyle;
+  return;
+}

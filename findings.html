@@ -107,8 +107,8 @@
         </td>
         <td class="flowBox" width=25% height=500px style="padding:10px">
           <div class="flowChart">
-            <img class="findingsIcons" src="img/findings/vowelChart.png" width=100% height=200px/>
-            <div style="background-color:white; height:20px;width30px;float:center; margin: auto; padding-top:10px;" align="center">
+            <img class="findingsIcons" src="img/findings/spanishbygroup.png" width=100% height=200px/>
+            <div style="background-color:black; height:20px;width30px;float:center; margin: auto; padding-top:10px;" align="center">
               <div style="width:10%;">
                   <h4 style="background-color:red; display:inline; padding:5px 15px">3</h4>
               </div>
@@ -199,6 +199,8 @@
                 <td>
                   <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
                   <button style="background-color:red" onclick="document.getElementById('sound4').play();">► ɛ</button>
+                  <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:red" onclick="document.getElementById('sound4').play();">► ɛ(before /k, r, l/)</button>
                 </td>
                 <td>
                   <audio id="sound5" src="yoursound.mp3" preload="auto"></audio>
@@ -206,14 +208,20 @@
                 </td>
                 <td>
                   <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
-                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a</button>
+                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a(short)</button>
                 </td>
+
+                <td>
+                  <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a(long)</button>
+                </td>
+
               </tr>
               <tr>
                 <td style="padding-right:10px; text-align: right">
                   Spanish
                 </td>
-                <td>
+                <td >
                   <audio id="sound1" src="yoursound.mp3" preload="auto"></audio>
                   <button style="background-color:green;" onclick="document.getElementById('sound1').play();">► e</button>
                 </td>
@@ -228,6 +236,15 @@
               </tr>
 
             </table>
+            <div align="center" style="padding-top:3%">
+              <button onclick=defineAShortLong() style="cursor:pointer; border-style:solid white; background-color:black; text-align:center">Long and Short /a/</button>
+            </div>
+
+              <p id="shortlong"  style="display:none; color:white; border: 1px; text-align:center">
+                In South African Afrikaans, long /a:/ is currently changing to  [ɔ:]. This change is not observed in Patagonian Afrikaans.
+              </p>
+
+
 
           </td>
           <td width="50%" style="padding-left:2em"> <img src="img/findings/monolinguals.png" width=100%></td>
@@ -256,6 +273,8 @@
                 <td>
                   <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
                   <button style="background-color:red" onclick="document.getElementById('sound4').play();">► ɛ</button>
+                  <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:red" onclick="document.getElementById('sound4').play();">► ɛ(before /k, r, l/)</button>
                 </td>
                 <td>
                   <audio id="sound5" src="yoursound.mp3" preload="auto"></audio>
@@ -263,7 +282,12 @@
                 </td>
                 <td>
                   <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
-                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a</button>
+                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a(short)</button>
+                </td>
+
+                <td>
+                  <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a(long)</button>
                 </td>
               </tr>
               <tr>
@@ -314,6 +338,8 @@
                 <td>
                   <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
                   <button style="background-color:red" onclick="document.getElementById('sound4').play();">► ɛ</button>
+                  <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:red" onclick="document.getElementById('sound4').play();">► ɛ(before /k, r, l/)</button>
                 </td>
                 <td>
                   <audio id="sound5" src="yoursound.mp3" preload="auto"></audio>
@@ -321,7 +347,12 @@
                 </td>
                 <td>
                   <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
-                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a</button>
+                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a(short)</button>
+                </td>
+
+                <td>
+                  <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:red" onclick="document.getElementById('sound6').play();">► a(long)</button>
                 </td>
               </tr>
               <tr>
@@ -331,18 +362,25 @@
                 <td>
                   <audio id="sound1" src="yoursound.mp3" preload="auto"></audio>
                   <button style="background-color:green;" onclick="document.getElementById('sound1').play();">► ɛ</button>
+                  <audio id="sound4" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:green" onclick="document.getElementById('sound4').play();">► ɛ(before /k, r, l/)</button>
                 </td>
                 <td>
                   <audio id="sound2" src="yoursound.mp3" preload="auto"></audio>
                   <button style="background-color:green" onclick="document.getElementById('sound2').play();">► ɔ</button>
                 </td>
                 <td>
-                  <audio id="sound3" src="yoursound.mp3" preload="auto"></audio>
-                  <button style="background-color:green" onclick="document.getElementById('sound3').play();">► a</button>
+                  <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:green" onclick="document.getElementById('sound6').play();">► a(short)</button>
+                </td>
+
+                <td>
+                  <audio id="sound6" src="yoursound.mp3" preload="auto"></audio>
+                  <button style="background-color:green" onclick="document.getElementById('sound6').play();">► a(long)</button>
                 </td>
               </tr>
             </table>
-            <div align="center">
+          <div align="center">
             <button onclick=defineAllo() style="cursor:pointer; border-style:solid white; background-color:black; text-align:center">Define Allophonic</button>
           </div>
 

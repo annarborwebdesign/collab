@@ -263,6 +263,10 @@ li.timeline-mobile:first-child::before {
 
 
 /*TEAM STYLE*/
+a.facultySite {
+  color:white;
+}
+
 #team-image{
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -278,6 +282,8 @@ img.team-image{
   filter: brightness(90%);
   max-width: 25%;
   border-radius: 50%;
+  cursor:pointer;
+
 }
 
 img.team-image:hover{

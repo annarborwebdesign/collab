@@ -329,7 +329,7 @@ a:focus, a:hover {
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/background-images/collaborating.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.5) ), url("../img/background-images/collaborating.jpg");
 }
 .timeline14:hover{
   -moz-background-size: cover;

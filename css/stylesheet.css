@@ -32,7 +32,6 @@ div.desktop{
   background-repeat: no-repeat !important;
   background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/background-images/TeamAbout6.jpg");
   height:50em;
-  text-shadow: 1px 1px #000;
 }
 
 #what-are-we-doing{

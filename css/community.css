@@ -230,7 +230,38 @@ a:focus, a:hover {
   background-repeat: no-repeat !important;
   background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline1.jpg");
 }
-
+#timeline2{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline2.jpg");
+}
+#timeline3{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline3.jpg");
+}
+#timeline4{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline4.jpg");
+}
+#timeline5{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline5.jpg");
+}
 #timeline6{
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -238,6 +269,54 @@ a:focus, a:hover {
   background-position: top center !important;
   background-repeat: no-repeat !important;
   background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline6.jpg");
+}
+#timeline7{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline7.jpg");
+}
+#timeline8{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline8.jpg");
+}
+#timeline9{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline9.jpg");
+}
+#timeline10{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline10.jpg");
+}
+#timeline11{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline11.jpg");
+}
+#timeline12{
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/timeline/timeline12.jpg");
 }
 #timeline13{
   -moz-background-size: cover;

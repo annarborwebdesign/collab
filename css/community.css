@@ -222,120 +222,131 @@ a:focus, a:hover {
   }
 }
 
-.child {
-
-}
 
 .timeline1:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline1.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,.6)), url("../img/timeline/timeline1.jpg");
 }
 
 .timeline2:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline2.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline2.jpg");
 }
 .timeline3:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url("../img/timeline/timeline3.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline3.jpg");
 }
 .timeline4:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline4.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline4.jpg");
 }
 .timeline5:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline5.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline5.jpg");
 }
 .timeline6:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline6.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline6.jpg");
 }
 .timeline7:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline7.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline7.jpg");
 }
 .timeline8:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline8.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline8.jpg");
 }
 .timeline9:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline9.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline9.jpg");
 }
 .timeline10:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline10.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline10.jpg");
 }
 .timeline11:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline11.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline11.jpg");
 }
 .timeline12:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline12.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline12.jpg");
 }
 .timeline13:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0.5) ), url("../img/background-images/collaborating.jpg");
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,0.6) ), url("../img/background-images/collaborating.jpg");
 }
 .timeline14:hover{
+  text-shadow: 1px 1px 5px #000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/timeline/timeline14.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../img/timeline/timeline14.jpg");
 }

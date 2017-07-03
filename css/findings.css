@@ -1,6 +1,7 @@
 body, html {
   height:100%;
   width:100%
+  text-align:center;
 }
 
 .navbar-custom, body {
@@ -9,6 +10,17 @@ body, html {
 
 .intro, body, html {
   width:100%;
+}
+
+#findings{
+  width: 100%;
+  padding:10em 10em;
+  text-align:center;
+  color:#fff;
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("../img/background-images/analyzing.jpg")  no-repeat center ;
+  text-shadow: 1px 1px #000;
+  -webkit-background-size:cover;-moz-background-size:cover;
+  background-size:cover;-o-background-size:cover;
 }
 
 body {

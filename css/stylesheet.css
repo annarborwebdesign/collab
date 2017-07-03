@@ -82,7 +82,7 @@ height: 100%;
 
 .dateIdentifier {
   color: red;
-  
+
 }
 
 /* Wrapper for page content to push down footer */
@@ -256,7 +256,7 @@ li.timeline-mobile:first-child::before {
   font-size:2em;
 }
 .findingText {
-
+  text-align:center;
 }
 
 

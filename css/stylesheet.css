@@ -76,7 +76,7 @@ height: 100%;
 }
 
 #community{
-  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)), url("../img/unused-images/man.jpg")  no-repeat center center;
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/unused-images/man.jpg")  no-repeat center center;
   text-shadow: 1px 1px #000;
 }
 

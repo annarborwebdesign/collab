@@ -55,7 +55,7 @@ div.desktop{
 }
 
 #who-are-we-mobile{
-  background: url("../img/background-images/TeamAbout6.jpg") no-repeat center center;
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/background-images/TeamAbout6.jpg") no-repeat center center;
   background-size: 100% 30em;
 }
 
@@ -65,7 +65,7 @@ div.desktop{
 }
 
 #why-does-it-matter-mobile{
-  background: url("../img/background-images/cooking.jpg") no-repeat center center;
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.6)), url("../img/background-images/cooking.jpg") no-repeat center center;
   background-size: 100% 30em;
 }
 

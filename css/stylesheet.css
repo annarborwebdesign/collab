@@ -203,42 +203,6 @@ li.timeline-mobile:first-child::before {
 }
 
 
-/*COLLABORATION STYLE*/
-#collab-wrapper {
-  width: 90%;
-  border: 1px solid black;
-  overflow: hidden;
-}
-
-#first {
-  width: 60%;
-  float:left;
-  color:white;
-  font-size:1.8em;
-  text-align:center;
-  padding-left:15%;
-}
-
-#second {
-  width:40%;
-  float:right;
-  overflow: hidden;
-}
-
-.icon-collab {
-  color:white;
-  border:1px solid #000;
-  font-size:6em;
-}
-
-.collab-people {
-  border-radius:50%;
-}
-
-.collab-subtitle {
-  color:white;
-}
-
 /*FINDINGS STYLE*/
 
 .researchFinding {
@@ -263,7 +227,7 @@ li.timeline-mobile:first-child::before {
 
 /*TEAM STYLE*/
 a.facultySite {
-  color:white;
+  color:black;
 }
 
 #team-image{
@@ -295,7 +259,7 @@ img.team-image:hover{
 
 .bio-container{
   display:none;
-  background-color:#708090;
+  background-color:#D3D3D3;
   padding-top:2%;
   padding-bottom:1%
 }

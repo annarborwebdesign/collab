@@ -4,16 +4,20 @@ body, html {
 }
 
 .navbar-custom, body {
-  background-color: #7997a1;
+  background-color: white;
 }
 
 .intro, body, html {
   width:100%;
 }
 
+.team-line {
+  border-color:black;
+}
+
 body {
   font-family:Monteserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  color:#fff;
+  color:black;
   webkit-tap-highlight-color:rgba(255,255,255,.2);
 }
 

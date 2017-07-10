@@ -30,7 +30,7 @@ div.desktop{
   background-size: cover;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/background-images/Team1.jpg");
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.8)), url("../img/background-images/TeamAbout6.jpg");
   height:50em;
 }
 
